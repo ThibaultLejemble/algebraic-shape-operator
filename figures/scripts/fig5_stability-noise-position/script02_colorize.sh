@@ -7,7 +7,7 @@ mkdir -p results
 surface=goursat
 values_n_str=( 0250000 ) 
 values_n_int=(  250000 )
-values_method=(APSS ASO Barycenter OJets PCAPlane PSS VCM WJets)
+values_method=(APSS ASO Barycenter OJets OJets2 PCAPlane PSS VCM WJets)
 
 values_noise=(0.000000001 0.005 0.01 0.02)
 values_r=(0.1)

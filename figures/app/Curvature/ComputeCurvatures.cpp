@@ -28,14 +28,14 @@ int main(int argc, char** argv)
     info() << opt;
 
     std::vector<GlobalCurvatureComputer> computers;
-    // computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_Barycenter>());
-    // computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_PCAPlane  >());
-    // computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_APSS      >());
-    // computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_ASO       >());
-    // computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_OJets     >());
+    computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_Barycenter>());
+    computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_PCAPlane  >());
+    computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_APSS      >());
+    computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_ASO       >());
+    computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_OJets     >());
     computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_OJets2    >());
-    // computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_WJets     >());
-    // computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_PSS       >());
+    computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_WJets     >());
+    computers.push_back(GlobalCurvatureComputer::make<CurvatureComputer_PSS       >());
 
     Geometry points;
     GlobalCurvatureData groundtruth;
