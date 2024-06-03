@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bindir=../../../c++/build
+bindir=../../build
 
 mkdir -p results
 
