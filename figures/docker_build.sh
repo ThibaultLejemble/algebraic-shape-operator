@@ -12,4 +12,4 @@ docker build                               \
     --build-arg GID=$PARAM_GID             \
     --build-arg USERNAME=$PARAM_USERNAME   \
     --build-arg GROUPNAME=$PARAM_GROUPNAME \
-    -t pcp - < Dockerfile
+    -t aso - < Dockerfile

@@ -37,4 +37,4 @@ RUN useradd       \
     --shell /usr/bin/zsh \
     ${USERNAME}
 
-CMD [ "/usr/bin/zsh" ]%                                                                           *[main][~/dev/pcp]$ 
+CMD [ "/usr/bin/zsh" ]
