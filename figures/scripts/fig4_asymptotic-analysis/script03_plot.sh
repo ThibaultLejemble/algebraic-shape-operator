@@ -1,5 +1,5 @@
 #/bin/bash
   
 mkdir -p results
-python plot-H.py
-python plot-n.py
+python3 plot-H.py
+python3 plot-n.py
