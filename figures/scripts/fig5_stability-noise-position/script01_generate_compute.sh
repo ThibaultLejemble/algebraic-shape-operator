@@ -4,7 +4,7 @@ mkdir -p groundtruth
 mkdir -p estimations
 mkdir -p noisy
 
-bindir=../../../c++/build
+bindir=../../build
 
 surface=goursat
 values_n_str=( 0250000 ) 
