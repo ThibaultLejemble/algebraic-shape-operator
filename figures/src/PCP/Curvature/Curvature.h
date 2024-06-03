@@ -31,6 +31,7 @@ class CurvatureComputer_PCAPlane   : public AbstractPointWiseCurvatureComputer{O
 class CurvatureComputer_APSS       : public AbstractPointWiseCurvatureComputer{OVERRIDDEN_METHODS};
 class CurvatureComputer_ASO        : public AbstractPointWiseCurvatureComputer{OVERRIDDEN_METHODS};
 class CurvatureComputer_OJets      : public AbstractPointWiseCurvatureComputer{OVERRIDDEN_METHODS};
+class CurvatureComputer_OJets2     : public AbstractPointWiseCurvatureComputer{OVERRIDDEN_METHODS};
 class CurvatureComputer_WJets      : public AbstractPointWiseCurvatureComputer{OVERRIDDEN_METHODS};
 class CurvatureComputer_PSS        : public AbstractPointWiseCurvatureComputer{OVERRIDDEN_METHODS};
 

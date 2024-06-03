@@ -11,6 +11,7 @@ namespace pcp {
 // -------->                                                                      Name          ori.     H     N      k    k_si.   dir
 MethodProperties CurvatureComputer_PSS       ::method_properties() const {return {"PSS",        false, true, true,  true,  true,  true };}
 MethodProperties CurvatureComputer_OJets     ::method_properties() const {return {"OJets",      false, true, true,  true,  true,  true };}
+MethodProperties CurvatureComputer_OJets2    ::method_properties() const {return {"OJets2",     false, true, true,  true,  true,  true };}
 MethodProperties CurvatureComputer_WJets     ::method_properties() const {return {"WJets",      false, true, true,  true,  true,  true };}
 MethodProperties CurvatureComputer_Barycenter::method_properties() const {return {"Barycenter", false, true, false, false, false, false};}
 MethodProperties CurvatureComputer_PCAPlane  ::method_properties() const {return {"PCAPlane",   false, true, true,  false, false, true };}
