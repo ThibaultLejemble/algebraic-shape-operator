@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-values_method = ['Barycenter','OJets','PCAPlane','PSS','WJets','VCM','APSS','ASO']
+values_method = ['Barycenter','OJets', 'OJets2', 'PCAPlane','PSS','WJets','VCM','APSS','ASO']
 values_n_int  = [10000,25000,50000,75000,100000,250000,500000,750000,1000000]
 values_n_str  = ['0010000','0025000','0050000','0075000','0100000','0250000','0500000','0750000','1000000']
 surface = "goursat"
@@ -16,9 +16,10 @@ styles = {
     'APSS':       Style('#ecec53', '-'),
     'ASO':        Style('#ec5353', '-'),
     'OJets':      Style('#a053ec', '-'),
+    'OJets2':     Style('#000000', '--'),
     'WJets':      Style('#a07c7c', '-'),
     'PSS':        Style('#f6aaf6', '-'),
-    'VCM':        Style('#006600', '-')
+    'VCM':        Style('#006600', '-'),
 }
 
 class Statistics:
